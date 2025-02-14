@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <title>Ocio Firefox</title>
+</head>
+
+<body>
+    <header class="text-center">
+        <h1>Ocio Firefox</h1>
+    </header>
+    <main class="container my-4">
+
+
+
+        <div class="row">
+            <div class="col">
+                <h3>GMAIL FREDILSON - Deshabilitado</h3>
+                <ul class="list-group list-group-horizontal">
+                    <a class="list-group-item list-group-item-action text-center mx-2 border"
+                        href="https://mail.google.com/mail/u/0/?ogbl#spam" target="_blank"
+                        rel="noopener noreferrer">SPAM</a>
+                    <a class="list-group-item list-group-item-action text-center mx-2 border"
+                        href="https://mail.google.com/mail/u/0/?ogbl#advanced-search/is_unread=true&isrefinement=true"
+                        target="_blank" rel="noopener noreferrer">No Leidos</a>
+                    <a class="list-group-item list-group-item-action text-center mx-2 border"
+                        href="https://mail.google.com/mail/u/0/?ogbl#all" target="_blank"
+                        rel="noopener noreferrer">Todos</a>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <ul class="list-group">
+                    <a href="https://messages.google.com/web/conversations" class="list-group-item" target="_blank">Messages JOHNY - Deshabilitado</a>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <ul class="list-group">
+                    <a href="https://web.whatsapp.com/" class="list-group-item" target="_blank">Whatsapp JOHNY W - Deshabilitado</a>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <h3>Redes Sociales - Deshabilitado</h3>
+                <ul class="list-group list-group-horizontal">
+                    <a class="list-group-item list-group-item-action text-center mx-2 border"
+                        href="https://www.facebook.com/" target="_blank"
+                        rel="noopener noreferrer">Facebook Fredilson</a>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const anclas = document.querySelectorAll('a')
+
+        anclas.forEach(ancla => ancla.addEventListener('click', (e) => {
+            console.log({ e })
+            e.target.className += ' active'
+        }))
+    </script>
+</body>
+
+</html>
