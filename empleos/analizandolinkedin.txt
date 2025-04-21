@@ -1,0 +1,17 @@
+cantidad de segundos r86400 dia, r604800 semana, r2592000 mes
+https://www.linkedin.com/jobs/search/
+f_TPR=r86400
+keywords=neiva
+
+
+EN SITIO 1, REMOTO 2, hibrido 3 --- se pueden elegir concatenando con la coma (%2C)
+https://www.linkedin.com/jobs/search/
+f_WT=1
+keywords=neiva
+
+Mas reciente
+sortBy=DD
+
+--------------------------------------------------------
+
+https://www.linkedin.com/jobs/search/?f_WT=2&keywords=javascript&sortBy=DD&f_TPR=r86400

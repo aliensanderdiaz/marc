@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleos</title>
+</head>
+<body>
+    <header>
+        <h3>Empresas</h3>
+    </header>
+    <div id="container-empresas">
+
+    </div>
+
+    <hr>
+
+    <div id="links">
+        <a href="https://www.linkedin.com/jobs/search/?currentJobId=3962993808&keywords=neiva&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=3962211390%2C3962993808%2C3966080652" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/jobs/search/?currentJobId=3962993808&keywords=neiva&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=3962211390%2C3962993808%2C3966080652</a>
+
+        <br>
+        <br>
+
+        <a href="https://www.linkedin.com/jobs/search/?f_WT=2&keywords=nodejs&sortBy=DD&f_TPR=r86400" target="_blank">
+            https://www.linkedin.com/jobs/search/?f_WT=2&keywords=nodejs&sortBy=DD&f_TPR=r86400
+        </a>
+
+    </div>
+
+    <script src="empleos.js"></script>
+
+    <script>
+        const containerEmpresas = document.querySelector('#container-empresas')
+        let htmlContainerEmpresas = ''
+
+        rechazados.forEach(element => {
+            htmlContainerEmpresas += `
+                <div><span><b>${ element.empresa }</b> - ${ element.puesto } - (${ element.medio })</span></div>
+            `
+        });
+
+        containerEmpresas.innerHTML = htmlContainerEmpresas
+    </script>
+</body>
+</html>
